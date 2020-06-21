@@ -18,6 +18,4 @@ Gem::Specification.new do |s|
   s.requirements << 'xmllint (in PATH)'
 
   s.add_dependency('pronto', '~> 0.10.0')
-  s.add_development_dependency('rake', '~> 11.0')
-  s.add_development_dependency('rspec', '~> 3.4')
 end
