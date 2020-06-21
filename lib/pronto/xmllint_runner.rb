@@ -13,9 +13,8 @@ module Pronto
       return [] if !@patches || @patches.count.zero?
 
       @patches
-        .select { |patch| patch.additions > 0 }
-        .map { |patch| inspect(patch) }
-        .flatten.compact
+        .select { |patch| patch.additions > 0 && checkable?(patch.new_file_full_path) }
+        .reduce([]) { |results, patch| results.concat(inspect(patch)) }
     end
 
     class << self
