@@ -48,7 +48,7 @@ module Pronto
       def run_xmllint(patch)
         Dir.chdir(repo_path) do
           escaped_file_path = Shellwords.escape(patch.new_file_full_path.to_s)
-          `xmllint --noout #{escaped_file_path}`
+          `xmllint --nowarning --noout #{escaped_file_path}`
         end
         return $?.exitstatus
       end

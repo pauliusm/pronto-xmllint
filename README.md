@@ -7,3 +7,8 @@ Pronto runner for [xmllint](http://xmlsoft.org/xmllint.html). [What is Pronto?](
 ## Prerequisites
 
 You need to have `xmllint` present in the system, found via `$PATH`
+
+
+## Changelog
+
+0.2.0 Added option to not complain on warnings.
