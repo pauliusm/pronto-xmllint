@@ -17,5 +17,5 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
   s.requirements << 'xmllint (in PATH)'
 
-  s.add_dependency('pronto', '~> 0.10.0')
+  s.add_dependency('pronto', '~> 0.11.0')
 end
