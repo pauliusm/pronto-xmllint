@@ -1,6 +1,7 @@
 # Pronto runner for xmllint
 
 [![Gem Version](https://badge.fury.io/rb/pronto-xmllint.svg)](http://badge.fury.io/rb/pronto-xmllint)
+[![Maintainability](https://api.codeclimate.com/v1/badges/08e26c0033d3ff2ad30e/maintainability)](https://codeclimate.com/github/pauliusm/pronto-xmllint/maintainability)
 
 Pronto runner for [xmllint](http://xmlsoft.org/xmllint.html). [What is Pronto?](https://github.com/prontolabs/pronto)
 
