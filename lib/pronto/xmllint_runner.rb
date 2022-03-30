@@ -37,6 +37,7 @@ module Pronto
 
       def inspect(patch)
         new_message('XMLLint failed.') if run_xmllint(patch).nonzero?
+        []
       end
 
       def new_message(offence)
